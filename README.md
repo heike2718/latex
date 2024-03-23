@@ -41,6 +41,6 @@ RUN texhash
 ...
 
 ```
-## LaTeY-Style-Pakete
+## LaTeX-Style-Pakete
 
-Theoretisch müsste sich das, was unter usr liegt, in ein LaTeX-Paket umwandeln lassen, aber damit kenne ich mich nicht genug aus und stelle die Sourcen einfach mal so hier zur Verfügung.
+Theoretisch müsste sich das, was unter usr liegt, in ein LaTeX-sty-Paket umwandeln lassen, aber damit kenne ich mich nicht genug aus und stelle die Sourcen einfach mal so hier zur Verfügung.
