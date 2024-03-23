@@ -25,9 +25,7 @@ erfolgte entsprechend dieser [Anleitung](http://www.radamir.com/tex/ttf-tex.htm)
 
 Basis-Image ist [heike2718/docker-java-latex](https://github.com/heike2718/mathe-jung-alt/tree/develop/backend/docker).
 
-[Dockerfile heike2718/docker-java-latex](https://github.com/heike2718/mathe-jung-alt/blob/develop/backend/docker/docker-java-latex/Dockerfile)
-
-Basierend auf diesem Image wird ein weiteres Image gebaut, das ein paar Imagetools zum Umwandeln von dvi in png enthält sowie die umgewandelten Fonts im  user-LaTeX-Verzeichnisbaum, damit alles schön von der TeXLife-Full-Installation im Container getrennt bleibt.
+Basierend auf diesem Image wird ein weiteres Image gebaut, das ein paar tools enthält, die ich für die Generierung von PDF und png im Online-Aufgabenarchiv benötige sowie die umgewandelten Fonts im user-LaTeX-Verzeichnisbaum, damit alles schön von der TeXLife-Full-Installation im Container getrennt bleibt.
 
 Hier die Befehle zum kopieren und Einbinden der Fonts:
 
@@ -43,4 +41,6 @@ RUN texhash
 ...
 
 ```
+## LaTeY-Style-Pakete
 
+Theoretisch müsste sich das, was unter usr liegt, in ein LaTeX-Paket umwandeln lassen, aber damit kenne ich mich nicht genug aus und stelle die Sourcen einfach mal so hier zur Verfügung.
